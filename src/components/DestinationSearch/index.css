@@ -1,0 +1,29 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+.search-input {
+  background-color: #f1f5f9;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
